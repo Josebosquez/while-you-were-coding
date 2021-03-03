@@ -101,9 +101,7 @@ const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|
 // Don't print the pipes!
 
 for (const value of names){
-    let name1 = ""
     if (value === "|"){
-        names.split("|");
         console.log("Here today is: ")
     } else {
         console.log(value)
