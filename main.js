@@ -1,67 +1,67 @@
-// // ##### Introduction #####
-// //
-// // The below assignment will require NO functions
-// //
-// // Instead, our focus is going to be on console.logging the characters at certain indices of strings.
-// //
+// ##### Introduction #####
+//
+// The below assignment will require NO functions
+//
+// Instead, our focus is going to be on console.logging the characters at certain indices of strings.
+//
 
 
-// // ##### Challenges #####
+// ##### Challenges #####
 
-// console.log('##### Challenge 1 #####');
-// // 1.
-// //
-// // Console out the numbers from 1-20, but only if they're divisible by 3.
-// // Hint: Use `if` and a modulus operation.
-// for (let i = 0; i < 20; i++){
-//     if ([i] % 3 === 0){
-//     console.log(i);
-// }
-// }
-
-
-// console.log('##### Challenge 2 #####');
-// // 2.
-// //
-// // Console out the numbers from 1-20. BACKWARDS.
-
-// for (let i = 20; i > 0; i--) {
-//     if([i] <= 20 && [i] >= 0){
-//         console.log([i])
-//     }
-// }
-
-// console.log('##### Challenge 3 #####');
-// // 3.
-// //
-// // For the string 'Boy howdy am I good at this!', console out the letters
-// // individually.
-// let string3 = 'Boy howdy am I good at this!';
-// for (i = 0; i < string3.length; i++){
-//     console.log(string3[i]);
-// }
+console.log('##### Challenge 1 #####');
+// 1.
+//
+// Console out the numbers from 1-20, but only if they're divisible by 3.
+// Hint: Use `if` and a modulus operation.
+for (let i = 0; i < 20; i++){
+    if ([i] % 3 === 0){
+    console.log(i);
+}
+}
 
 
-// console.log('##### Challenge 4 #####');
-// // 4.
-// //
-// // For the string, 'And getting better every day.', starting with the second
-// // character, print out every third character.
-// let string4 = 'And getting better every day.';
-// for (i = 2; i < string4.length; i+=3){
-//     // console.log([i]);
-//     console.log(string4[i]);
-// }
+console.log('##### Challenge 2 #####');
+// 2.
+//
+// Console out the numbers from 1-20. BACKWARDS.
 
-// console.log('##### Challenge 5 #####');
-// // 5. 
-// //
-// // For the string 'Am I the best?', console out the letters individually, AND
-// // UPPERCASED.
-// let string5 = 'Am I the best?';
-// for (i = 0; i < string5.length; i++){
-//     console.log(string5[i].toUpperCase());
-// }
+for (let i = 20; i > 0; i--) {
+    if([i] <= 20 && [i] >= 0){
+        console.log([i])
+    }
+}
+
+console.log('##### Challenge 3 #####');
+// 3.
+//
+// For the string 'Boy howdy am I good at this!', console out the letters
+// individually.
+let string3 = 'Boy howdy am I good at this!';
+for (i = 0; i < string3.length; i++){
+    console.log(string3[i]);
+}
+
+
+console.log('##### Challenge 4 #####');
+// 4.
+//
+// For the string, 'And getting better every day.', starting with the second
+// character, print out every third character.
+let string4 = 'And getting better every day.';
+for (i = 2; i < string4.length; i+=3){
+    // console.log([i]);
+    console.log(string4[i]);
+}
+
+console.log('##### Challenge 5 #####');
+// 5. 
+//
+// For the string 'Am I the best?', console out the letters individually, AND
+// UPPERCASED.
+let string5 = 'Am I the best?';
+for (i = 0; i < string5.length; i++){
+    console.log(string5[i].toUpperCase());
+}
 
 console.log('##### Challenge 6 #####');
 // 6.
