@@ -81,42 +81,42 @@ for (i = 0; i < joinArr.length; i++){
 }
 
 
-// console.log('##### Challenge 7 #####');
-// // 7.
-// //
-// // For the string 'I am become death, destroyer of worlds.', console out the letters
-// //  individually, but backwards. That is, the first console log should be
-// // `.`, followed by `s`, followed by `d`, and so on.
-// let string7 = 'I am become death, destroyer of worlds.';
-// for (i = string7.length-1; i > -1; i--){
-//     console.log(string7[i]);
-// }
+console.log('##### Challenge 7 #####');
+// 7.
+//
+// For the string 'I am become death, destroyer of worlds.', console out the letters
+//  individually, but backwards. That is, the first console log should be
+// `.`, followed by `s`, followed by `d`, and so on.
+let string7 = 'I am become death, destroyer of worlds.';
+for (i = string7.length-1; i > -1; i--){
+    console.log(string7[i]);
+}
 
 
-// console.log('##### Challenge 8 #####');
-// // 8.
-// //
-// const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|Steve H.|Cesar|Nastya|Jeremy L.|Michael|John|Lee|Ruth|Steve M.|Tim|Ronny|Stevie R|Neo|Rick|Kyle|Minahil|Adam|Sonny|James|Daisy|Willie';
+console.log('##### Challenge 8 #####');
+// 8.
+//
+const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|Steve H.|Cesar|Nastya|Jeremy L.|Michael|John|Lee|Ruth|Steve M.|Tim|Ronny|Stevie R|Neo|Rick|Kyle|Minahil|Adam|Sonny|James|Daisy|Willie';
 
-// // Console out the individual letters of each person in class, which are
-// // in the string above. Every time you start a new name (including the first
-// // one!), console out the string: 'Here today is:'.
+// Console out the individual letters of each person in class, which are
+// in the string above. Every time you start a new name (including the first
+// one!), console out the string: 'Here today is:'.
 
-// // You'll know you're at a new person's name when you hit the pipe character.
+// You'll know you're at a new person's name when you hit the pipe character.
 
-// // Don't print the pipes!
+// Don't print the pipes!
 
-// console.log("Here today is: ")
-// for (const value of names){
-//     if (value === "|"){
+console.log("Here today is: ")
+for (const value of names){
+    if (value === "|"){
+        console.log("Here today is: ")
+    } else {
+        console.log(value)
+    }
+}
+// for (i = 0; i < names.length; i++){
+//     if (i === 0){
 //         console.log("Here today is: ")
-//     } else {
-//         console.log(value)
 //     }
 // }
-// // for (i = 0; i < names.length; i++){
-// //     if (i === 0){
-// //         console.log("Here today is: ")
-// //     }
-// // }
 
