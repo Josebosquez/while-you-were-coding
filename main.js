@@ -37,7 +37,9 @@ console.log('##### Challenge 3 #####');
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
 let string3 = 'Boy howdy am I good at this!';
-
+for (i = 0; i < string3.length; i++){
+    console.log(string3[i]);
+}
 
 
 console.log('##### Challenge 4 #####');
@@ -46,8 +48,10 @@ console.log('##### Challenge 4 #####');
 // For the string, 'And getting better every day.', starting with the second
 // character, print out every third character.
 let string4 = 'And getting better every day.';
-
-
+for (i = 2; i < string4.length; i+=3){
+    // console.log([i]);
+    console.log(string4[i]);
+}
 
 console.log('##### Challenge 5 #####');
 // 5. 
