@@ -59,8 +59,9 @@ console.log('##### Challenge 5 #####');
 // For the string 'Am I the best?', console out the letters individually, AND
 // UPPERCASED.
 let string5 = 'Am I the best?';
-
-
+for (i = 0; i < string5.length; i++){
+    console.log(string5[i].toUpperCase());
+}
 
 console.log('##### Challenge 6 #####');
 // 6.
@@ -68,7 +69,10 @@ console.log('##### Challenge 6 #####');
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 let string6 = 'Whoa, I am the best!';
-
+for (i = 0; i < string6.length; i++){
+    string6.split(" ")
+    console.log(string6[i]);
+}
 
 
 console.log('##### Challenge 7 #####');
@@ -78,7 +82,9 @@ console.log('##### Challenge 7 #####');
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
 let string7 = 'I am become death, destroyer of worlds.';
-
+for (i = string7.length-1; i > -1; i--){
+    console.log(string7[i]);
+}
 
 
 console.log('##### Challenge 8 #####');
@@ -94,6 +100,14 @@ const names = 'Alex|Mesuara|Brian|Chanel|Matt|Jeremy B.|Jose|Andy|Dustin|Joshua|
 
 // Don't print the pipes!
 
-
+for (const value of names){
+    let name1 = ""
+    if (value === "|"){
+        names.split("|");
+        console.log("Here today is: ")
+    } else {
+        console.log(value)
+    }
+}
 
 
